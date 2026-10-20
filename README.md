@@ -1,19 +1,17 @@
 # my-first-project
 鸚鵡飼育具高度專業性，新手飼主常面臨品種辨識困難、不解啃咬天性、用品採購預算難估，以及缺乏數位化健康登記管道等痛點。因此我製作了此系統，希望能降低飼育門檻，並透過數位化工具協助新/舊飼主養育鳥寶們。
 
-主頁
-按鍵與選單功能：頂部 MenuStrip 提供網頁式導覽（百科、習性、購物、登記、離開）。畫面上標題文字漸進呼吸特效。
-核心程式碼邏輯：利用 Timer 元件的 Tick 事件，動態調整 Label 的 Font 尺寸與顏色。
-
+主頁</n>
+按鍵與選單功能：頂部 MenuStrip 提供網頁式導覽（百科、習性、購物、登記、離開）。畫面上標題文字漸進呼吸特效。</n>
+核心程式碼邏輯：利用 Timer 元件的 Tick 事件，動態調整 Label 的 Font 尺寸與顏色。</n>
 <img width="700" height="221" alt="image" src="https://github.com/user-attachments/assets/9442cc43-118c-43e5-9f92-bc147f5281a6" />
 
-鸚鵡種類大百科
-按鍵與選單功能：點選左側 ListBox 中的 9 種鸚鵡品項，中央 PictureBox 會同步跑出對應鸚鵡的照片，右側TextBox 則動態生成該品種的詳細習性介紹。
-核心程式碼邏輯：在 ListBox 的 SelectedIndexChanged 事件中，撰寫多層 if-else 判斷式，根據 SelectedItem 的字串內容變更對應的圖片與文字。
-
+鸚鵡種類大百科</n>
+按鍵與選單功能：點選左側 ListBox 中的 9 種鸚鵡品項，中央 PictureBox 會同步跑出對應鸚鵡的照片，右側TextBox 則動態生成該品種的詳細習性介紹。<\n>
+核心程式碼邏輯：在 ListBox 的 SelectedIndexChanged 事件中，撰寫多層 if-else 判斷式，根據 SelectedItem 的字串內容變更對應的圖片與文字。<\n>
 <img width="758" height="457" alt="image" src="https://github.com/user-attachments/assets/843bdfe8-3625-457b-9c78-e226e5707222" />
 
-鸚鵡習性測驗
+鸚鵡習性測驗<\n>.
 按鍵與選單功能：透過 TabControl 分頁展示四大天性。下方 CheckedListBox 包含 8 題心理素質測驗，點擊「送出」後，會跳出不同評語的訊息視窗，來自我檢測自己是不是真的適合養鸚鵡。
 核心程式碼邏輯：使用 for 迴圈搭配 CheckedListBox.GetItemChecked(i) 累加勾選總數，再以 if-else 進行分數級別評定。
 
