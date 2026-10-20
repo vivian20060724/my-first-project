@@ -1,4 +1,4 @@
-# my-first-project
+# 鸚鵡小天地管理系統
 鸚鵡飼育具高度專業性，新手飼主常面臨品種辨識困難、不解啃咬天性、用品採購預算難估，以及缺乏數位化健康登記管道等痛點。因此我製作了此系統，希望能降低飼育門檻，並透過數位化工具協助新/舊飼主養育鳥寶們。
 
 # 主頁
@@ -42,8 +42,8 @@
 <img width="527" height="437" alt="image" src="https://github.com/user-attachments/assets/e80e99f3-e001-4b81-bcf4-fd5162fe5f61" />
 
 # 開發技術與環境
-*開發語言**：C#
+*開發語言*：C#
 
-*使用者介面**：Windows Forms (.NET)
+*使用者介面*：Windows Forms (.NET)
 
-*開發工具**：Visual Studio
+*開發工具*：Visual Studio
